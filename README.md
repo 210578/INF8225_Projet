@@ -9,16 +9,16 @@ Ce dépôt contient l'implémentation de différents algorithmes d'apprentissage
 ├── README.md
 ├── algorithms/
 │   ├── DQN/
-│   │   ├── DQN.py
-│   │   └── replay_buffer.py
+│   │   └──  DQN.py
 │   ├── RainbowDQN/
 │   │   ├── DQNRainbow.py
 │   │   ├── DQNRainbow-read_network.py
+│   │   ├── network.py
+│   │   ├── rainbow_dqn.py
 │   │   ├── replay_buffer.py
 │   │   └── sum_tree.py
 │   ├── DDPG/
-│   │   ├── ddpg_lunar_launder_cartpole.py
-│   │   └── replay_buffer.py
+│   │   └── ddpg_lunar_launder_cartpole.py
 │   └── PPO/
 │       └── ppo.py
 └── results/

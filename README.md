@@ -71,18 +71,6 @@ PPO est un algorithme d'optimisation de politique qui utilise un mécanisme de c
 - CartPole-v1: Score parfait de 500 après seulement 1600 épisodes
 - LunarLander-v3: Score de 200 après 8200 épisodes
 
-## Comment exécuter
-
-Pour exécuter un algorithme sur un environnement spécifique, utilisez la commande suivante:
-
-```bash
-# Par exemple, pour exécuter DQN sur CartPole
-python algorithms/DQN/DQN.py --env CartPole-v1
-
-# Pour exécuter DDPG sur LunarLander
-python algorithms/DDPG/ddpg_lunar_launder_cartpole.py --env LunarLanderContinuous-v2
-```
-
 ## Prérequis
 
 - Python 3.7+
